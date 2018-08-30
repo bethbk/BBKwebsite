@@ -1,0 +1,242 @@
+/*****CONTENT MARKETING PAGE STYLES******/
+
+/****Base styles***/
+
+html {
+	width: 1200px;
+}
+
+body {
+	font-family: "Playfair Display", "serif";
+	font-family: "Raleway", "sans-serif";
+	padding: 2.5%;
+	width: 100%;
+}
+
+header {
+	height: 250px;	}
+
+#infographics, #downloads, #website, #blog, #newsletters, #social-media {
+	height: 400px;
+}
+
+img {	
+	height: auto;
+	max-width: 100%;
+}
+
+h2 {
+	
+}	
+
+
+/**CONTENT MARKETING header**/
+
+li .top-row {
+	float: left;
+	padding: 5%;
+	background-color: #ee5d6c;
+	}
+
+li .bottom-row {
+	float: left;
+	background-color: #ee5d6c;	
+}
+
+header {
+	clear: both;
+}
+
+/**this is background color from prettygoodhuman.com--too bright
+#infographics {
+	background-color: #ffca06;
+}**/
+
+
+
+/**INFOGRAPHICS SECTION***/
+#infographics-header {
+	width: 10%;
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-left: 0;
+	padding-left: 30px;
+	border: 0;
+	
+}
+
+.infographics-img {
+	padding-top: 40px;
+	padding-right: 15px;
+	padding-bottom: 40px;
+	padding-left: 15px;
+}
+
+.infographics-img-2 {
+	padding-top: 30px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 0;
+
+}
+
+#infographics-container {
+	margin-top: 0px;
+	width: 77%;
+	float: right;
+}
+
+
+/**WEBSITE AND BLOG SECTION**/
+
+#website-header {
+	width: 18%;
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-left: 0;
+	padding-top: 30px;
+	padding-left: 30px;
+	border: 0;
+}
+
+#website {
+	background-color: #e6decc;
+}
+
+#website-container {
+	width: 75%;
+	float: right;
+}
+	
+.website-img {
+	padding-top: 80px;
+	padding-right: 15px;	
+	padding-bottom: 15px;
+	padding-left: 15px;
+}
+
+
+/**DOWNLOADS SECTION**/
+
+#downloads-header {
+	height: 370px;
+	width: 12%;
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-left: 0;
+	padding-top: 30px;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 30px;
+	border: 0;	
+}
+
+p {
+	padding-left: 10px;
+}
+
+#nine-ways-container {
+	width: 84%;
+	float: right;
+	}
+
+.nine-ways-img {
+	float: left;
+	padding-top: 40px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	}
+
+	
+	
+/***NEWSLETTERS SECTION**/
+
+#newsletters {
+	background-color: #e6decc;
+	clear: both;
+}
+
+#newsletters-header {
+	height: 370px;
+	width: 20%;
+	float: left;
+	
+	margin-top: 0px;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-left: 0;
+	padding-top: 30px;
+	padding-left: 30px;
+	border: 0;
+}
+
+ul {
+	font-family: Raleway;
+	padding-left: 10px;
+}
+
+	
+#newsletters-container {
+	height: 400px;
+	width: 75%;
+	float: right;
+	clear: right;
+	
+	}	
+	
+	
+.newsletters-img {
+	padding-top: 40px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	margin-top: 0px;
+}
+
+
+
+/**SOCIAL MEDIA SECTION**/
+
+#social-media-header {
+	width: 15%;
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-left: 0;
+	padding-left: 30px;
+	border: 0;
+}
+
+span  {
+	font-size: 20px;
+}
+
+#social-media-calendar {
+	height: 400px;
+	width: 75%;
+	float: right;
+	clear: right;	
+	}	
+	
+.social-media-calendar-img {
+	padding-top: 60px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	margin-top: 0px;
+}
+
+
+/**MEDIA QUERIES**/
+	
+
+
+	

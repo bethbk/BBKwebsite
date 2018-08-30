@@ -1,0 +1,472 @@
+/******* BASE STYLES *****/
+html {
+	
+}
+
+body {
+	font-family: "Playfair Display", "serif";
+	font-family: "Raleway", "sans-serif";
+	padding: 2.5%;
+	width: 100%;
+}
+
+header {
+	height: 600px;	
+}
+
+#skills, #work, #contact {
+	height: 500px;
+}
+
+img {	
+	height: auto;
+	max-width: 100%;
+}
+	
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 30px:
+}
+
+p {
+	font-size: 16px;
+}
+
+
+
+/******MOBILE********/
+
+/******** HEADER*******/
+
+
+#name {
+	height: 215px;
+	width: 100%;
+	float: left; 
+	clear: both; 
+}
+
+#name h2 {
+	color: black;
+	background-color: white;
+	font-family: Raleway; 
+/***border-bottom: 2px solid black;    *****/
+	text-align: left; 
+	padding-left: 30px;
+	clear: both;
+}
+
+h1 {
+	font-family: Raleway;
+	text-align: left;
+	padding-left: 30px;
+	color: #8A8780;
+	background-color: white;
+	float: left;
+	clear: both;
+	margin: 0;
+}
+
+#title {
+	clear: both;
+}
+
+#front-end {
+	height: 70px;
+	padding-bottom: 0;
+}
+
+#content {
+	height: 250px;
+	background-color: #ee5d6c;
+	}
+
+#content h1 {
+	background-color: #ee5d6c;
+	color: #000000;
+}
+
+
+nav {
+	height: 75px;
+	float: right;
+	clear: both;
+	padding-right: 0;
+	margin: 0;
+}
+
+nav ul li {
+	color: black;
+	font-family: Raleway;
+	font-size: 18px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+
+
+	
+	
+/************ABOUT section**********/
+
+	#skills {
+		clear: both;
+				
+	}
+	
+	#skills h3 {
+		width: 100%;
+		height: 100px;
+		font-family: Raleway;
+		color: black;
+		padding-left: 30px;
+		font-size: 34px; 
+		float: left;
+		clear: left;
+		margin: 0;
+	}	
+	 
+	#skills p {
+		font-family: Raleway;
+		font-size: 20px;
+		color: black;
+		line-height: 30px;
+	}
+
+		
+	.about-first-para {
+		width: 100%;
+		padding-left: 30px;
+	}
+	
+	.about-second-para {
+		width: 100%;
+		padding-left: 30px;
+	}
+	
+	.about-third-para {
+		width: 100%;
+		float: left;
+		padding-left: 30px;
+		padding-top: 100px;
+	}
+
+/**********WORK section***********/
+/**Taking out background color of each work sample to try background color for whole work section instead**/
+	
+	#work {
+		padding-left: 30px;
+		clear: both;
+		background-color: #e6decc;
+	}
+	
+	#work h4 {
+		font-size: 35px;
+	}
+	
+	.first-work-sample {
+		width: 100%;
+		text-align: center;
+		float: left;
+	/**	background-color: #8A8780;   **/
+		margin: 20px;
+	}
+	
+	.second-work-sample {
+		width: 100%;
+		text-align: center;
+		float: left;
+	/**	background-color: #8A8780;   **/
+		margin: 20px;
+	}
+	
+	.third-work-sample {
+		width: 100%;
+		text-align: center;
+		float: left;
+	/**	background-color: #8A8780;   */
+		margin: 20px;
+	}
+	
+/**********CONTACT section****************/
+	
+	#contact {
+		clear: both;
+	}
+	
+	#contact h3 {
+		font-size: 30px;
+	}
+	
+	.full-width {
+		width: 100%;
+	}
+	
+/***.contact-top {
+		
+		width: 100%;
+		clear: both;
+		padding-right: 10%;
+		padding-left: 5%;	
+	}
+	
+	.contact-bottom {
+		height: 280px;
+		padding-right: 10%;
+		padding-left: 5%;
+		width: 100%;
+		clear: both;	
+	}
+	
+	#contact-photo {
+		height: 200px; 
+		clear: both;
+		margin: 0px;
+		width: 100%;
+		padding-left: 30%;
+		padding-right: 30%;
+	}****/
+	
+	#half-width-top-left {
+		height: 280px;
+		width: 47%;
+		float: left;
+	}
+	
+	#half-width-photo {
+		width: 46%;
+		float: right;
+		height: 180px;
+	}
+	
+	#half-width-bottom-left {
+		height: 220px;
+		padding-left: 5%;
+		width: 41%;
+		float: left;
+		clear: left;
+		
+	}
+	
+	#half-width-social-media {
+		height: 320px;
+		width: 45%;
+		float: right;
+	}
+	
+
+	#email-header h3{
+		webkit-margin-before: 0;
+	}
+	
+	#half-width-social-media a {
+		font-family: Raleway;
+		font-size: 30px;
+		color: black;
+		float: left;
+	}
+	
+	#half-width-social-media h4 {
+		padding-left: 70px;
+		padding-bottom: 10px;
+		padding-top: 7-Kepx;
+		font-size: 25px;
+		margin-bottom: 10px;
+	}
+	
+	li {
+		width: 125px;
+		float: left;
+	}
+	
+	
+	
+
+/******** TABLET ****************/
+
+@media (min-width: 768px) and (max-width: 939px)  {
+	
+
+	#nav {
+		padding-right: 25%;
+		}
+	.about-first-para {
+		width: 40%;
+		float: left; 
+		padding-right: 20px;
+		}
+	
+	.about-second-para {
+		width: 40%;
+		float: left;
+		padding-right: 30px;
+		padding-left: 20px;
+	}
+	
+/****Work section****/
+
+	.first-work-sample {
+		width: 45%;
+		float: left;
+		
+	}
+	.second-work-sample {
+		width: 45%;
+		float: left;
+		
+	}
+	.third-work-sample {
+		width: 90%;
+		float: left;
+		
+		
+	}
+
+/********Contact******/
+
+/***
+	#half-width-photo {
+		width: 64%;
+		float: right;
+		padding: 0;
+		clear: right;
+		margin: 0px;
+	}
+	
+	#half-width-social-media {
+		width: 60%;
+		height: 380px;
+		float: right;
+		padding-left: 30px;
+		
+	}****/
+	
+	#half-width-top-left {
+		float: left;
+		padding: 0;
+		clear: left;
+		border-style: groove;
+		border-color: #000000;
+		border-width: 10px;
+		border-top: 0px;
+		border-left: 0px;
+	}
+
+	#half-width-bottom-left {
+		float: left;
+		border-style: groove;
+		border-color: #000000;
+		border-width: 10px;
+		border-top: 0;
+		border-bottom: 0px;
+		border-left: 0;
+		}
+		
+	#half-width-top-left h2 {
+		padding-top: 200px;
+		padding-left: 50px;
+		font-size: 60px;
+		margin: 0px;
+	}
+		
+	#half-width-bottom-left h2 {
+		font-size: 60px;
+		float: right;
+		margin: 0px;
+		padding-right: 90px;
+		margin-top: -15px;
+	}	
+}
+
+
+/************DESKTOP***********/
+
+@media (min-width: 940px) {
+
+	.first-work-sample {
+		width: 29%;
+		float: left;
+	/**Maybe background color for whole work section instead? 
+		background-color: #8A8780;***/
+		
+	
+	}
+	.second-work-sample {
+		width: 29%;
+		float: left;
+	/**	background-color: #8A8780;  **/
+		
+	}
+	.third-work-sample {
+		width: 29%;
+		float: left;
+	/**	background-color: #8A8780;  **/
+		
+	}
+
+/**********Contact*********/
+
+
+
+	#half-width-photo {
+
+		float: right;
+		padding: 0;
+		clear: right;
+		margin: 0px;
+	}
+	
+	#half-width-social-media {
+
+		float: right;
+		padding-left: 30px;
+		
+	}
+	
+	#half-width-top-left {
+		float: left;
+		padding: 0;
+		clear: left;
+		border-style: groove;
+		border-color: #000000;
+		border-width: 10px;
+		border-top: 0px;
+		border-left: 0px;
+	}
+
+	#half-width-bottom-left {
+		float: left;
+		border-style: groove;
+		border-color: #000000;
+		border-width: 10px;
+		border-top: 0;
+		border-bottom: 0px;
+		border-left: 0;
+		}
+		
+	#half-width-top-left h2 {
+		padding-top: 200px;
+		padding-left: 50px;
+		font-size: 60px;
+		margin: 0px;
+	}
+		
+	#half-width-bottom-left h2 {
+		font-size: 60px;
+		float: right;
+		margin: 0px;
+		padding-right: 90px;
+		margin-top: -15px;
+	}	
+}
+	
+
+	
